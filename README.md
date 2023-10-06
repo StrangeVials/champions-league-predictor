@@ -1,16 +1,10 @@
 # champions-league-predictor
+
+v3.1 - added fancy display of all the group stages and removed some unneccesary code
+
 This is a simple game that will predict the winner of the 2023/24 Champions League season.
 
 There are 8 predetermined lists based on the actual group stages that were drawn in real life. 
-
-group_A = ["Bayern", "Manchester United", "Copenhagen", "Galatasaray"]
-group_B = ["Sevilla", "Arsenal", "PSV", "Lens"]
-group_C = ["Napoli", "Real Madrid", "Braga", "Union Berlin"]
-group_D = ["Benfica", "Inter Milan", "Salzburg", "Real Sociedad"]
-group_E = ["Feyenoord", "Atletico Madrid", "Lazio", "Celtic"]
-group_F = ["PSG", "Dortmund", "Newcastle", "AC Milan"]
-group_G = ["Manchester City", "Leipzig", "Crvena Zvezda", "Young Boys"]
-group_H = ["Barcelona", "Porto", "Shakhtar Donetsk", "Antwerp"]
 
 The program will ask you to enter any group stage. This will give you the winners of that group stage. For example, if you enter group F, the program will randomly select 2 teams as the winner. The program will then store these two teams in the ro16teams list. Note that you cannot make the program return two new strings from the same list after entering that group; for example, if winners from group F have already been selected, you cannot make the randomizer function grab another two new strings.
 
